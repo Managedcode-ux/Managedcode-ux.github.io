@@ -148,14 +148,27 @@ section {
   display: grid;
   place-content: center;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .skills-container ul li .icon-container.one {
-  width: 50px;
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-container ul li .icon-container.one .a {
+  margin-right: 1em;
 }
 
 .skills-container ul li .icon-container.two {
-  width: 100px;
+  max-width: 100%;
+  height: auto;
+}
+
+.skills-container ul li .icon-container.two .a {
+  margin-right: 1em;
 }
 
 .skills-container ul li .icon-container.three {
@@ -244,9 +257,6 @@ section {
     padding: 2em 4em 2em 4em;
   }
   .social-header {
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
     padding: 2em 4em 2em 0;
   }
   section {

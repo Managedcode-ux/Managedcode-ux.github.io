@@ -131,23 +131,38 @@ section{
 }
 
 .skills-container ul li{
+   
    background: white;
    padding: 2em;
    border-radius: 1em;
    margin-bottom: 1em;
 
    .icon-container{
+       
        height: 100px;
        display: grid;
        place-content: center;
        margin: 0 auto;
+       display: flex;
+
 
        &.one{
-           width: 50px;
+           max-width: 100%;
+           height: auto;
 
+           .a{
+               margin-right: 1em;
+           }
+           
        }
        &.two{
-           width: 100px;
+           max-width: 100%;
+           height: auto;
+
+           .a{
+               margin-right: 1em;
+           }
+           
            
        }
        &.three{
@@ -245,7 +260,7 @@ section{
     }
 
     .social-header{
-        justify-content: space-evenly;
+        
         padding: 2em 4em 2em 0;
     }
 
