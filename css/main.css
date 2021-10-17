@@ -154,8 +154,8 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  max-width: 100%;
-  height: auto;
+  max-width: 20%;
+  height: 20%;
 }
 
 .skills-container ul li .icon-container.one .a {
@@ -163,7 +163,7 @@ section {
 }
 
 .skills-container ul li .icon-container.two {
-  max-width: 100%;
+  max-width: 20%;
   height: auto;
 }
 
@@ -325,6 +325,12 @@ section {
   }
   .hero .content {
     padding: 6em 8em 6em 10em;
+  }
+  .skills-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: 1em;
+    margin-bottom: 1em;
   }
 }
 

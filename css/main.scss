@@ -147,8 +147,8 @@ section{
 
 
        &.one{
-           max-width: 100%;
-           height: auto;
+           max-width:20%;
+           height: 20%;
 
            .a{
                margin-right: 1em;
@@ -156,7 +156,7 @@ section{
            
        }
        &.two{
-           max-width: 100%;
+           max-width: 20%;
            height: auto;
 
            .a{
@@ -343,7 +343,8 @@ section{
    padding: 2em;
    border-radius: 1em;
    margin-bottom: 1em;
-}    
+    }    
+}
 
 @media only screen and (min-width: 1550px){
     .header{
@@ -362,4 +363,4 @@ section{
     .hero .content{
         padding: 9em 20em 6em 20em;
     }
-}    
+}   
