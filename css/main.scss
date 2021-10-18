@@ -147,8 +147,8 @@ section{
 
 
        &.one{
-           max-width:40px;
-           height: 40px;
+           max-width: 20%;
+           height: 3em;
 
            .a{
                margin-right: 1em;
@@ -156,7 +156,7 @@ section{
            
        }
        &.two{
-           max-width: 3em;
+           max-width: 20%;
            height: 3em;
 
            .a{
