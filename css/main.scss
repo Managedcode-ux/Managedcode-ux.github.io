@@ -137,39 +137,36 @@ section{
    border-radius: 1em;
    margin-bottom: 1em;
 
-   .icon-container{
-       
-       height: 100px;
-       display: grid;
-       place-content: center;
-       margin: 0 auto;
-       display: flex;
+   .icon-container {
+        height: 100px;
+        display:grid;
+        direction: column;
+        place-content: center;
+        margin: 0 auto;
 
-
-       &.one{
-           max-width: 20%;
-           height: 3em;
-
-           .a{
-               margin-right: 1em;
-           }
-           
-       }
-       &.two{
-           max-width: 20%;
-           height: 3em;
-
-           .a{
-               margin-right: 1em;
-           }
-           
-           
-       }
-       &.three{
-           width: 60px;
-           
-       }
-   }
+        &.one {
+            width: 50px;
+            display: flex;
+            .a{
+                width: 40px;
+                height: 60px;
+                margin-right: 10px;
+            }
+        }
+        &.two {
+            width: 100px;
+             width: 50px;
+            display: flex;
+            .a{
+                width: 40px;
+                height: 60px;
+                margin-right: 10px;
+            }
+        }
+        &.three {
+            width: 60px;
+        }
+    }
 
    .skill-title{
        font-weight: bold;
