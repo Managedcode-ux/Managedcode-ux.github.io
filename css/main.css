@@ -143,7 +143,7 @@ section {
 }
 
 .skills-container ul li .icon-container {
-  height: 200px;
+  height: 150px;
   display: -ms-grid;
   display: grid;
   direction: column;
