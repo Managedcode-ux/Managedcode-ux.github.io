@@ -138,14 +138,14 @@ section{
    margin-bottom: 1em;
 
    .icon-container {
-        height: 100px;
+        height: 200px;
         display:grid;
         direction: column;
         place-content: center;
         margin: 0 auto;
 
         &.one {
-            width: 50px;
+            width: 100px;
             display: flex;
             .a{
                 width: 40px;
@@ -155,7 +155,6 @@ section{
         }
         &.two {
             width: 100px;
-             width: 50px;
             display: flex;
             .a{
                 width: 40px;
