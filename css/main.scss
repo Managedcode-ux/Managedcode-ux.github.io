@@ -147,8 +147,8 @@ section{
 
 
        &.one{
-           max-width:20%;
-           height: 20%;
+           max-width:3em;
+           height: 3em;
 
            .a{
                margin-right: 1em;
@@ -156,8 +156,8 @@ section{
            
        }
        &.two{
-           max-width: 20%;
-           height: auto;
+           max-width: 3em;
+           height: 3em;
 
            .a{
                margin-right: 1em;
@@ -191,8 +191,7 @@ section{
     margin-bottom: 2em;
 }
 
-@media only screen and (min-width: 800px)
-{
+@media only screen and (min-width: 800px){
     .featured, .portfolio{
         text-align: left;
     }

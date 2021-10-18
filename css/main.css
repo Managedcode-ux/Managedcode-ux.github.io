@@ -154,8 +154,8 @@ section {
 }
 
 .skills-container ul li .icon-container.one {
-  max-width: 20%;
-  height: 20%;
+  max-width: 3em;
+  height: 3em;
 }
 
 .skills-container ul li .icon-container.one .a {
@@ -163,8 +163,8 @@ section {
 }
 
 .skills-container ul li .icon-container.two {
-  max-width: 20%;
-  height: auto;
+  max-width: 3em;
+  height: 3em;
 }
 
 .skills-container ul li .icon-container.two .a {
